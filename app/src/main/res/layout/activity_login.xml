@@ -74,4 +74,16 @@
         app:layout_constraintTop_toBottomOf="@+id/edt_password"
         app:layout_constraintVertical_bias="0.197" />
 
+    <TextView
+        android:id="@+id/tv_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="24dp"
+        android:text="History"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_login" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
